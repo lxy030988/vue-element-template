@@ -44,6 +44,7 @@ export default {
     BreadCrumb
   },
   created() {
+    console.log(process.env);
     // this.getUser();
     this.setCrumbs(this.$route.path);
 

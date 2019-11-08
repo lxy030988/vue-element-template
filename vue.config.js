@@ -24,7 +24,7 @@ module.exports = {
     }
   },
   configureWebpack: {
-    name: "智慧交通"
+    name: "后台管理系统"
     // externals: {
     //   AMap: "AMap"
     // }

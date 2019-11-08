@@ -1,7 +1,7 @@
 import router from "./router";
 
 router.beforeEach((to, from, next) => {
-  document.title = `智慧交通 | ${to.meta.title}`;
+  document.title = `后台管理系统 | ${to.meta.title}`;
   const role = localStorage.getItem("ms_username");
   if (!role && to.path !== "/login") {
     next("/login");
